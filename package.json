@@ -1,0 +1,23 @@
+{
+  "name": "atividade-workflow",
+  "version": "1.0.0",
+  "description": "atividade-workflow",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "atividade",
+    "workflow",
+    "curso"
+  ],
+  "author": "Wagner Arias",
+  "license": "MIT",
+  "devDependencies": {
+    "del": "^2.2.2",
+    "gulp": "^3.9.1",
+    "gulp-clean-css": "^3.0.4",
+    "gulp-minify-html": "^1.0.6",
+    "gulp-sass": "^3.1.0"
+  }
+}
