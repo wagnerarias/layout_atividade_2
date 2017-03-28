@@ -1,0 +1,22 @@
+{
+  "name": "atividade-workflow",
+  "description": "atividade-workflow",
+  "main": "index.js",
+  "authors": [
+    "Wagner Arias"
+  ],
+  "license": "MIT",
+  "keywords": [
+    "atividade",
+    "workflow",
+    "curso"
+  ],
+  "homepage": "https://github.com/wagnerarias/atividade-workflow",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ]
+}
