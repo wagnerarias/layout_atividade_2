@@ -1,13 +1,24 @@
 /* base.scss -> base.css */
-// Crio a variável
-$cor-padrao: #069;
- 
-.btn-primario {
-  // aqui eu chamo a variável:
-  background: $cor-padrao;
+@import "variaveis.scss";
+
+.item {
+	background-color: $cor-fundo;
+	min-height: $altura;
 }
- 
-.texto-principal {
-  // chamo aqui também:
-  color: $cor-padrao;
+
+.logo {
+	background-color: $cor-bklogo;
+	color: $cor-texto;	
+}
+
+.item-2 {
+	background-color: $cor-fundo2;
+	min-height: 5px;
+	color: $cor-texto-camada;
+}
+
+.footer {
+	padding: 25px;
+	background-color: $cor-fundo-footer;
+	color: $cor-texto-footer;
 }
