@@ -3,6 +3,7 @@ var sass = require("gulp-sass");
 var cleanCSS = require("gulp-clean-css");
 var minifyHTML = require("gulp-minify-html");
 var del  = require("del");
+var notify = require("gulp-notify");
 
 
 gulp.task('apagar', function(){
