@@ -37,4 +37,5 @@ gulp.task('background', function(){
 	gulp.watch('./source/scss/*.scss',['cpmf-css']);
 	gulp.watch('./source/*.html',['mini-html']);
 });
+gulp.task('default',['cmpf-css','mini-html','background']);
 
